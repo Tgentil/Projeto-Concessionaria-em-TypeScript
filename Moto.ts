@@ -1,9 +1,9 @@
 import Veiculo from "./Veiculo";
 
-class moto extends Veiculo {
+class Moto extends Veiculo {
 	public acelerar(): void {
 		this.velocidade = this.velocidade + 20;
 	}
 }
 
-export default moto;
+export default Moto;
