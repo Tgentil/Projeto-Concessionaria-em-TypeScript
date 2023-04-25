@@ -1,4 +1,4 @@
-interface DaoInterface {
+export interface DaoInterface {
     inserir(object: any): boolean;
     atualizar(object: any): boolean;
     remover(id: number): boolean;
