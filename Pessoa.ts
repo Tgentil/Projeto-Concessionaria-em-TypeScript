@@ -1,4 +1,4 @@
-import Carro  from "./Carro";
+import Carro from "./Carro";
 
 export default class Pessoa {
 	private nome: string;

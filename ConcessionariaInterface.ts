@@ -1,3 +1,3 @@
 export interface ConcessionariaInterface {
-    fornecerHorariosDeFuncionamento(): string;
+	fornecerHorariosDeFuncionamento(): string;
 }

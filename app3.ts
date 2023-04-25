@@ -4,10 +4,10 @@ import Concessionaria from "./Concessionaria";
 
 let carro = new Carro("veloster", 3);
 
-let moto = new Moto('Ducati');
+let moto = new Moto("Ducati");
 moto.acelerar();
 
-let concessionaria = new Concessionaria('', []);
+let concessionaria = new Concessionaria("", []);
 
 console.log(moto);
 console.log(carro);
