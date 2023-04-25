@@ -14,4 +14,4 @@ Algumas das funcionalidades implementadas até o momento incluem:
 * ...
 
 # Autor
-Este projeto foi desenvolvido por [ Jorge Sant Ana ](https://www.linkedin.com/in/jorgesantanabr/) seguindo as orientações do curso "Desenvolvimento Web com JavaScript, TypeScript e Angular" da Udemy.
+Este projeto foi desenvolvido por [ Jorge Sant Ana ](https://www.linkedin.com/in/jorgesantanabr/) seguindo as orientações do curso ["Desenvolvimento Web com JavaScript, TypeScript e Angular"](https://www.udemy.com/course/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/) da Udemy.
