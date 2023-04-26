@@ -1,13 +1,9 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PessoaDao = void 0;
-const Pessoa_1 = __importDefault(require("./Pessoa"));
-class PessoaDao {
+exports.Dao = void 0;
+class Dao {
     constructor() {
-        this.nomeTabela = "tb_pessoa";
+        this.nomeTabela = "";
     }
     inserir(object) {
         console.log("logica de insert");
@@ -23,11 +19,11 @@ class PessoaDao {
     }
     selecionar(id) {
         console.log("logica select");
-        return new Pessoa_1.default("", "");
+        return Object();
     }
     selecionarTodos() {
         console.log("logica getAll");
-        return [new Pessoa_1.default("", "")];
+        return [Object()];
     }
 }
-exports.PessoaDao = PessoaDao;
+exports.Dao = Dao;

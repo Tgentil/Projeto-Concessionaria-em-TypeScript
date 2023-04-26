@@ -1,15 +1,14 @@
 import { DaoInterface } from "./DaoInterface";
-import Carro from "./Carro";
 
-export class CarroDao implements DaoInterface {
-	nomeTabela: string = "tb_Carro";
+export class Dao<T> implements DaoInterface<T> {
+	nomeTabela: string = "";
 
-	inserir(object: Carro): boolean {
+	inserir(object: T): boolean {
 		console.log("logica de insert");
 		return true;
 	}
 
-	atualizar(object: Carro): boolean {
+	atualizar(object: T): boolean {
 		console.log("logica update");
 		return true;
 	}
@@ -19,13 +18,13 @@ export class CarroDao implements DaoInterface {
 		return true;
 	}
 
-	selecionar(id: number) {
+	selecionar(id: number): T {
 		console.log("logica select");
-		return new Carro("", 0 );
+		return Object() as T;
 	}
 
-	selecionarTodos(): [any] {
+	selecionarTodos(): [T] {
 		console.log("logica getAll");
-		return [new Carro("", 0)];
+		return [Object() as T];
 	}
 }
