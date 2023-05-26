@@ -1,4 +1,7 @@
 ## Projeto Concessionária em TypeScript
+
+ [![GitHub](https://img.shields.io/badge/Visit-My%20Profile-0891B2?style=flat-square&logo=github)](https://github.com/Tgentil)
+
 Este projeto tem como aprender  Programação Orientada a Objetos (POO) faznedo um modelo de concessionária em TypeScript 
 seguindo as orientações do curso "Desenvolvimento Web com JavaScript, TypeScript e Angular" da Udemy.
 
